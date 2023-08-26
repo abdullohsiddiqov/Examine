@@ -52,6 +52,7 @@ class ShapeGenerator {
 		  box.style.borderBottom = '100px solid red';
 		  box.style.borderLeft = '50px solid transparent';
 		  box.style.borderRight = '50px solid transparent';
+          box.style.background = 'white'
 		} else if (shape === 'square') {
 		  box.style.borderRadius = '0';
 		}
